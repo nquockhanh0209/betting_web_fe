@@ -1,0 +1,608 @@
+/*style.css*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.row {
+    /*display: ;*/
+    display: none;
+    display: flex;
+    ;
+    flex-wrap: unset;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.r_match {
+    display: none;
+    display: flex;
+
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+a {
+    color: #0F5A88;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.Header_1 {
+    background: #0987D1;
+}
+
+.Menu {
+    margin-left: 50px;
+}
+
+a.anchor_Menu {
+    padding: 17px;
+    color: #000000;
+    opacity: 0.6;
+    font-size: 14px;
+    border-bottom: 0px solid white;
+    transition: ease-in-out 0.1s;
+
+}
+
+a.anchor_Menu:hover {
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    transition: ease-in-out 0.1s;
+
+}
+
+.Login {
+    /*    line-height: 2px;*/
+    align-self: center;
+    margin-left: 900px;
+}
+
+a.Contact {
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+}
+
+a.Login_box {
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    transition: ease-in-out 0.2s;
+}
+
+a.Login_box:hover {
+    text-decoration: none;
+    background: white;
+    color: #0F5A88;
+    transition: ease-in-out 0.2s;
+}
+
+a.Register {
+    background: #0F5A88;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    border: 1px solid #0F5A88;
+    border-radius: 2px;
+    transition: ease-in-out 0.2s;
+}
+
+a.Register:hover {
+    text-decoration: none;
+    background: white;
+    color: #0F5A88;
+    transition: ease-in-out 0.2s;
+}
+
+span.Mark {
+    border: 1px solid white;
+    background: white;
+    padding: 1px 8px;
+    border-radius: 20px;
+    color: #0987D1;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.Menu_Content {
+    margin: 10px 0px;
+}
+
+a.anchor_Content {
+    font-size: 17px;
+    color: #0F5A88;
+    padding: 15px;
+    transition: ease-in-out 0.1s;
+}
+
+a.anchor_Content:hover {
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #0987D1;
+    transition: ease-in-out 0.1s;
+}
+
+a.LIVE_Content {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0F5A88;
+}
+
+.Background {
+    background: white;
+    width: 85%;
+}
+
+.Match {
+    width: 25%;
+    background: white;
+    margin: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px darkgrey;
+    text-align: center;
+}
+
+.Title {
+    position: absolute;
+    /* right: 80px; */
+    /* bottom: 10px; */
+    left: 0px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.Time {
+    position: absolute;
+    /* left: 0px; */
+    top: 2px;
+    right: 0px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+    /* margin-left: 30px; */
+}
+
+Link.Team {
+    margin: 15px 0px;
+}
+
+.Team {
+    margin: 30px 40px;
+    margin-top: 70px;
+}
+
+.Team_1 {
+    width: 45%;
+    text-align: center;
+}
+
+span.Team_one {
+
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.Team_2 {
+    width: 45%;
+    text-align: center;
+}
+
+.name_team_one {
+    width: 70%;
+    align-self: center;
+    word-break: break-word;
+}
+
+.img_team_one {
+    width: 30%;
+}
+
+.img_team_two {
+    width: 30%;
+}
+
+.name_team_two {
+    align-self: center;
+    word-break: break-word;
+    width: 70%;
+}
+
+.shift {
+    width: 10%;
+    padding: 0px 10px;
+}
+
+span.Team_two {
+    font-size: 14px;
+}
+
+.Result {
+    display: inline-flex;
+    width: 100%;
+    margin: 0px 2px;
+}
+
+.line {
+    border-bottom: 1px solid darkgray;
+    width: 40%;
+    align-self: center;
+    opacity: 0.5;
+}
+
+span.Match_Result {
+    font-size: 12px;
+    color: black;
+
+}
+
+.Bet_Box {
+    margin: 25px 0px;
+    font-size: 14px;
+}
+
+.Bet {
+    display: inline-block;
+    font-size: 14px;
+    width: 33.3%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+Button.value {
+    padding: 5px;
+    border: 2px solid lightgray;
+    background: #F5F7F8;
+    border-radius: 3px;
+    margin: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+Button.value:hover {
+    background: lightgray;
+    transition: ease-in-out 0.2s;
+}
+
+span.number {
+    margin-right: 20px;
+}
+
+Home.Popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity linear 0.1s;
+
+}
+
+.Popup:target {
+    visibility: visible;
+    transition: opacity linear 0.1s;
+    opacity: 1;
+
+}
+
+.Popup_content {
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+    padding: 100px 150px;
+    text-align: center;
+    background-image: url(../images/Bet.jpg);
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px black;
+}
+
+Link.close_Popup {
+    position: absolute;
+    top: -5px;
+    right: 6px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px white;
+}
+
+p.bet_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 10px black
+}
+
+input[type="number"] {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+    text-align: center;
+}
+
+
+a.Bet_Button {
+    padding: 5px 50px;
+    background: indianred;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    transition: ease-in-out 0.2s;
+}
+
+a.Bet_Button:hover {
+    background: orangered;
+    transition: ease-in-out 0.2s;
+}
+
+.team_logo {
+
+    width: 32px;
+    height: 32px;
+}
+
+/* 
+Home.Popup.overlay {
+    background: rgba(49,49,49,0.8);
+}
+body.active-modal {
+    overflow-y: hidden;
+} */
+container-fluid.Header_1.row.Menu.wallet_icon {
+    width: 23px;
+    margin-right: 5px;
+}
+
+.Connect {
+    position: absolute;
+    right: 50px;
+    top: 9px;
+}
+
+button.wallet {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: cornflowerblue;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 0px;
+}
+
+
+
+.Bar {
+    text-align: center;
+    background: darkgray;
+}
+
+.Wallet_Value {
+    margin: 10px;
+    text-align: center;
+    /* background-color: yellowgreen; */
+    color: white;
+}
+
+
+
+.match_contract {
+    color: #0F5A88;
+    font-size: 12px;
+}
+
+.my-bet {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color: #0987D8;
+    font-weight: 600;
+}
+
+.bet-slip {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+
+p.bet_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 10px black
+}
+
+
+
+a.Bet_Button {
+    padding: 5px 50px;
+    background: indianred;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    transition: ease-in-out 0.2s;
+}
+
+a.Bet_Button:hover {
+    background: orangered;
+    transition: ease-in-out 0.2s;
+}
+
+
+.Bet_Menu {
+    width: 20%;
+    margin-left: 20px;
+    /* margin-top: -10px; */
+}
+
+.Bet_Slip {
+    background: #0987D1;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-top: 50px; */
+}
+
+.Balance {
+    background: #0987D1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Background_bet_box {
+    background: #F5F7F8;
+}
+
+.Bet_Match {
+    display: inline-flex;
+}
+
+p.team_name {
+    font-size: 16px;
+    margin: 10px;
+    color: #0987D8;
+    font-weight: 600;
+}
+
+p.bet_proportion {
+    line-height: 3;
+    margin-left: 195px;
+    font-size: 16px;
+    color: #0987D8;
+    font-weight: 600;
+}
+
+.Game_detail {
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.Number_value {
+    /* display: inline-flex; */
+    margin-left: 10px;
+}
+
+input.bet-number {
+    position: relative;
+    width: 150px;
+    left: 175px;
+    top: -25px;
+}
+.match-name {
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+.Infomation {
+    display: block;
+    position: relative;
+}
+
+.Single {
+    position: relative;
+}
+
+button.close_button {
+    position: absolute;
+    left: 320px;
+    top: 10px;
+    opacity: .7;
+}
+
+#check {
+    display: none;
+}
+
+.Balance_Box {
+    position: relative;
+    right: -10000px;
+    transition: all .3s ease;
+}
+
+.Bet_Slip_Box {
+    position: unset;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+label #btn,
+label #close {
+    position: absolute;
+    cursor: pointer;
+}
+
+label #btn {
+    right: 10px;
+    top: 8px;
+    font-size: 20px;
+    /* background: skyblue; */
+    padding: 10px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+label #close {
+    z-index: 1000;
+    font-size: 15px;
+    left: 2000px;
+    top: 90px;
+    /* background: skyblue; */
+    /* padding: 10px; */
+    transition: all 0.5s ease;
+}
+
+#check:checked~.Balance_Box {
+    right: 0px;
+}
+
+/* #check.checked~.Bet_Slip_Box {
+    margin-top: 90px;
+} */
+
+#check:checked~label #btn {
+    right: 0px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked~label #close{
+    left: 1810px;
+
+}
+
+.buttonBet {
+    text-align: center;
+    margin-bottom: 12px;
+}
+button.bet {
+    padding: 5px 50px;
+    font-size: 15px;
+}
